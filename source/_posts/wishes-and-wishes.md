@@ -1,5 +1,5 @@
 ---
-title:遗憾中的希望
+title: 遗憾中的希望
 ---
 <!-- wp:heading -->
 <h2 class="wp-block-heading">正文</h2>
