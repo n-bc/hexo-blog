@@ -1,5 +1,5 @@
 ---
-title:给六年级朋友的忠告
+title: 给六年级朋友的忠告
 ---
 <!-- wp:heading -->
 <h2 class="wp-block-heading">一</h2>
