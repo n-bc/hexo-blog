@@ -4,10 +4,10 @@ author_text: '请在这里设置你的作者信息' # 作者信息
 social: # 社交链接
   - title: 'Github'
     icon: 'github'
-    link: 'https://github.com/Dreamer-Paul'
+    link: 'https://github.com/caiyanzhe'
   - title: '首页'
     icon: 'home'
-    link: 'https://paul.ren'
+    link: 'https://www.n-bc.top'
 # background: 'https://api.paugram.com/wallpaper?source=gh' # 主题背景
 menu: # 页眉菜单项目
   '关于我': /about
