@@ -1,5 +1,5 @@
 ---
-title:洛谷P1135 奇怪的电梯
+title: 洛谷P1135 奇怪的电梯
 ---
 <!-- wp:heading -->
 <h2 class="wp-block-heading"><strong>题目描述(Description)</strong></h2>
