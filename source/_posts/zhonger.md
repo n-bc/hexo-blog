@@ -1,5 +1,5 @@
 ---
-title:没到初二，中二先来
+title: 没到初二，中二先来
 ---
 <!-- wp:heading -->
 <h2 class="wp-block-heading">一</h2>
