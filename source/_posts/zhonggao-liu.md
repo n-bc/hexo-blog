@@ -1,7 +1,5 @@
 ---
 title: 给六年级朋友的忠告
-date: 2022-02-17 12:00:25
-categories: 随笔
 ---
 <!-- wp:heading -->
 <h2 class="wp-block-heading">一</h2>
