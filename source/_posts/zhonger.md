@@ -1,7 +1,5 @@
 ---
 title: 没到初二，中二先来
-date: 2022-06-18 12:00:25
-categories: 随笔
 ---
 <!-- wp:heading -->
 <h2 class="wp-block-heading">一</h2>
