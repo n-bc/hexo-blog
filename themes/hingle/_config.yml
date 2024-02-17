@@ -5,13 +5,16 @@ social: # 社交链接
   - title: 'Github'
     icon: 'github'
     link: 'https://github.com/caiyanzhe'
+  - title: 'Bilibili'
+    icon: 'bilibili'
+    link: 'https://space.bilibili.com/667817936?spm_id_from=333.1007.0.0'
   - title: '首页'
     icon: 'home'
     link: 'https://www.n-bc.top'
 # background: 'https://api.paugram.com/wallpaper?source=gh' # 主题背景
 menu: # 页眉菜单项目
-  '关于我': /about
-  '朋友们': /friends
+  '隐私政策': /about
+  '友情链接': /friends
 config:
   copyright: true # 复制的时候弹出保留原站链接说明
   night: true # 自动切换夜间模式
