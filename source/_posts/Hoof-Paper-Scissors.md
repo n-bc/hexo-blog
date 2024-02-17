@@ -1,5 +1,5 @@
 ---
-title:Hoof, Paper, Scissors【USACO 2017 January Contest, Bronze】
+title: Hoof, Paper, Scissors【USACO 2017 January Contest, Bronze】
 ---
 <!-- wp:heading -->
 <h2 class="wp-block-heading">题目描述(Description)</h2>
