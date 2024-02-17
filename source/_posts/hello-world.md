@@ -1,38 +1,18 @@
 ---
-title: Hello World
+title: 贼丢人，梦开始的地方：有趣的烧纸船实验
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+<!-- wp:paragraph -->
+<p>在五一假期里，我和妈妈做了个有趣的烧纸船实验。你们想知道为什么这个实验有趣吗？那就快来看看吧！</p>
+<!-- /wp:paragraph -->
 
-## Quick Start
+<!-- wp:paragraph -->
+<p>那一天，妈妈拿来了两只折好的纸船、一支蜡烛、一只打火机和装满水的脸盆。我疑惑不解：这是要干什么呢？</p>
+<!-- /wp:paragraph -->
 
-### Create a new post
+<!-- wp:paragraph -->
+<p>好戏上演了！妈妈笑着问我：“孩子，如果把火点燃纸船，会发生什么呢？”我不假思索地说：“纸船肯定会被烧毁的。”“是这样吗？”只见妈妈拿出一条纸船，用被点燃的蜡烛去烧纸船的底部，两秒钟后，火苗蔓延开来，几秒钟后，“熊熊大火”烧了起来，眼前一片火光，为了不引起“火灾”，妈妈把快燃尽的纸船扔进了装满水的脸盆。瞧！没过多久，纸船就变成了黑黑的灰烬。妈妈指着另一艘纸船，神秘地问我：“如果将纸船里面装满水，再将火苗放在纸船底部，会发生什么呢？”我绞尽脑汁，一时间也拿不定主意，我只好“勇敢”地猜了一个：“应该也会像刚才那条船一样，被烧毁吧，不过，是这样吗？”妈妈不做声，只见她在船里装满了水，然后把蜡烛点燃了，将火苗对准纸船的底部，两秒过去了，五秒过去了，半分钟过去了，奇怪的事情发生了，纸船一点都没变，仍旧完好无损。心细的我发现船上冒白烟了，纸船里的水在“扑哧扑哧”地作响。</p>
+<!-- /wp:paragraph -->
 
-``` bash
-$ hexo new "My New Post"
-```
-
-More info: [Writing](https://hexo.io/docs/writing.html)
-
-### Run server
-
-``` bash
-$ hexo server
-```
-
-More info: [Server](https://hexo.io/docs/server.html)
-
-### Generate static files
-
-``` bash
-$ hexo generate
-```
-
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+<!-- wp:paragraph -->
+<p>为什么第二艘纸船没有被烧着呢？正当我疑惑不解时，妈妈告诉了我其中的奥秘：原来是船里的水吸收了热量，使纸船的温度降低，从而达不到着火点，无法燃烧。我听了，恍然大悟。原来，生活中处处有科学。这个实验可真有趣！</p>
+<!-- /wp:paragraph -->
