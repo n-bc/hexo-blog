@@ -1,5 +1,6 @@
 ---
 title: 关于六岁站长的Chat
+date: 2023-07-27 11:21:30
 ---
 <!-- wp:video {"align":"center"} -->
 <figure class="wp-block-video aligncenter"><video autoplay controls muted preload="auto" src="https://www.n-bc.top/6chat.mp4"></video></figure>

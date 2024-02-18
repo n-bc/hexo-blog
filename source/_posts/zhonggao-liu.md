@@ -1,5 +1,6 @@
 ---
 title: 给六年级朋友的忠告
+date: 2023-09-15 06:15:57
 ---
 <!-- wp:heading -->
 <h2 class="wp-block-heading">一</h2>
