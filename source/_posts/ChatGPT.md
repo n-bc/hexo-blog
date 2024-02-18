@@ -1,5 +1,6 @@
 ---
 title: 用ChatGPT优化wordpress：他真的，我哭死
+date: 2023-09-15 14:16:52
 ---
 <!-- wp:heading {"level":1} -->
 <h1 class="wp-block-heading"><strong>问题啊啊啊啊啊啊</strong></h1>
