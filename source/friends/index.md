@@ -28,7 +28,7 @@ title: 友情链接
 
 
 
-[**云晓晨CatchWang**](https://www.catchwang.com/)
+[**云晓晨CatchWang**](https://blog.catchyun.com)
 
 
 
