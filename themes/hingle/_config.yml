@@ -7,6 +7,7 @@ social: # 社交链接
 menu: # 页眉菜单项目
   '隐私政策': /about
   '友情链接': /friends
+  '留言板': /talk
   '开往': https://www.travellings.cn/plain.html
   '虫洞': https://www.foreverblog.cn/go.html
 config:
