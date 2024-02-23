@@ -1,5 +1,6 @@
 ---
 title: C++：邻接矩阵存图
+date: 2023-12-31
 ---
 <!-- wp:paragraph -->
 <p>给定n个点, m条单向边&nbsp;&nbsp;n&lt;=1000, m &lt;= 100000</p>
