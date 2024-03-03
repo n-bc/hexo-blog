@@ -1,18 +1,14 @@
 ---
 title: 留言板
 ---
-<div id="container"></div>
-<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<div id="tcomment"></div>
+<script src="https://cdn.staticfile.org/twikoo/1.6.31/twikoo.all.min.js"></script>
 <script>
-var gitment = new Gitment({
-  id: 'location.href', // 可选。默认为 location.href
-  owner: 'n-bc',  //改你自己的名字
-  repo: 'Comments',  //专门储存评论一个GitHub仓库
-  oauth: {
-    client_id: '575f1eaa65a674d1b159', //改为你自己的，下同
-    client_secret: '9c4b5759b5979020171977b973075bffddc94aef', 
-  },
+twikoo.init({
+  envId: 'hexo-blog-nq1sdyvsj-cbwt123-yeahnet.vercel.app', // 腾讯云环境填 envId；Vercel 环境填地址（https://xxx.vercel.app）
+  el: '#tcomment', // 容器元素
+  // region: 'ap-guangzhou', // 环境地域，默认为 ap-shanghai，腾讯云环境填 ap-shanghai 或 ap-guangzhou；Vercel 环境不填
+  // path: location.pathname, // 用于区分不同文章的自定义 js 路径，如果您的文章路径不是 location.pathname，需传此参数
+  // lang: 'zh-CN', // 用于手动设定评论区语言，支持的语言列表 https://github.com/twikoojs/twikoo/blob/main/src/client/utils/i18n/index.js
 })
-gitment.render('container')
 </script>
