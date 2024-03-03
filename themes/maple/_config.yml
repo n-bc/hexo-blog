@@ -2,8 +2,9 @@
 nav:
   Posts: /archives
   Travelling: https://www.travellings.cn/plain.html
-  # Categories: /category
-  # Tags: /tag
+  Friends: /friends
+  Categories: /category
+  Tags: /tag
 
 # favicon
 favicon: http://q1.qlogo.cn/g?b=qq&nk=2966938704&s=100
@@ -38,7 +39,7 @@ busuanzi: true
 mermaid:
   enable: true
   # Available themes: default | dark | forest | neutral
-  theme: neutral
+  theme: default
 
 # giscus
 giscus:
@@ -55,5 +56,5 @@ maple:
   # fall leaf count
   count: 10
   # 0-1
-  speed: 0.5
+  speed: 0.8
 
