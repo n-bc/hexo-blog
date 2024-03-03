@@ -103,3 +103,7 @@ theme: ZenMind
 deploy:
   type: ''
 
+
+sitemap:
+  path: sitemap.xml
+
