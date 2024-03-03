@@ -106,4 +106,8 @@ deploy:
 
 sitemap:
   path: sitemap.xml
-
+# hexo-admin authentification
+admin:
+  username: caiyanzhe
+  password_hash: $2a$10$YjtsrCfCHhvCql6uJXzraOwzAgzXL0Z/xzHQf6q1P3Rg05HgVVTJK
+  secret: dsjcbhdsagfdhbjs
