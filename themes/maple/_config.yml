@@ -3,8 +3,7 @@ nav:
   Posts: /archives
   Travelling: https://www.travellings.cn/plain.html
   Friends: /friends
-  Categories: /category
-  Tags: /tag
+
 
 # favicon
 favicon: http://q1.qlogo.cn/g?b=qq&nk=2966938704&s=100
@@ -41,14 +40,6 @@ mermaid:
   # Available themes: default | dark | forest | neutral
   theme: default
 
-# giscus
-giscus:
-  enable:
-  repo:
-  repo_id:
-  category:
-  category_id:
-  mapping:
 
 # maple
 maple:
