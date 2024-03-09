@@ -15,6 +15,7 @@ toolbar_title: '' # 顶栏标题，留空则跟随博客标题
 toolbar_menu: # 顶栏菜单，支持二级菜单
   Home: /
   Archives: /archives
+  Talk: /talk
   Friends: /friends
   Travelling: https://www.travellings.cn/plain.html
   Forever Blog: https://www.foreverblog.cn/go.html
@@ -124,7 +125,7 @@ waline: # https://waline.js.org/guide/get-started.html
   enable: false # 是否启用 Waline 评论系统
   server_url: '' 
 twikoo: # https://twikoo.js.org
-  enable: true # 是否启用 Twikoo 评论系统
+  enable: false # 是否启用 Twikoo 评论系统
   envID: 'https://twikoo.n-bc.top'
   lang: 'zh-CN'
 
