@@ -37,9 +37,6 @@ leftbar_menu: # 侧栏顶部菜单，支持无限层级菜单嵌套
 sidebar_auther_image: 'http://q1.qlogo.cn/g?b=qq&nk=2966938704&s=100' # 侧栏作者头像
 sidebar_auther_name: '白菜' # 侧栏作者名，留空则跟随博客名
 leftbar_author_links: # 侧栏作者链接列表
-  Weibo: http://weibo.com/yyh2c/
-  Github: http://github.com/n-bc
-  Twitter: http://twitter.com/caiyanzhe
 show_headindex_number: true # 侧栏文章目录是否显示章节编号
 
 # 文章
