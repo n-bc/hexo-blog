@@ -5,7 +5,7 @@ darkmode_autoswitch: true # 自动切换夜间模式，可选: false 默认使�
 enable_amoled_dark: true # 夜间模式样式，false 为灰黑，true 则为暗黑
 card_radius: 10 # 默认卡片圆角大小
 card_shadow: big # 默认卡片阴影大小，可选 small 和 big
-font: serif # 默认字体，可选: sans-serif 无衬线字体, serif 衬线字体
+font: sans-serif # 默认字体，可选: sans-serif 无衬线字体, serif 衬线字体
 enable_headroom: true # 滚动时是否自动折叠顶栏
 
 # 顶栏
@@ -13,7 +13,7 @@ toolbar_icon: '' # 顶栏图标图片地址，留空则不显示
 toolbar_icon_link: '' # 顶栏图标链接，点击时跳转
 toolbar_title: '' # 顶栏标题，留空则跟随博客标题
 toolbar_menu: # 顶栏菜单，支持二级菜单
-  <i class="fa fa-home"/></i>首页: /
+  首页: /
   归档: /archives
   开往: https://www.travellings.cn/plain.html
   虫洞: https://www.foreverblog.cn/go.html
@@ -53,7 +53,7 @@ additional_content_after_post: '' # 文末追加信息，支持 HTML，留空则
 article_header_style: 1 # 文章内小标题样式，可选值: default, 1, 2
 
 # 背景
-page_background_url: '/1.jpeg' # 页面背景地址，留空则不设页面背景
+page_background_url: 'http://www.n-bc.top/1.jpeg' # 页面背景地址，留空则不设页面背景
 page_background_dark_url: '/' # 夜间模式页面背景地址，留空则跟随日间模式
 page_background_opacity: 0.8 # 页面背景不透明度，0 ~ 1的小数
 transparent_banner: true # Banner 透明化，如果设置了背景以后推荐开启该选项
