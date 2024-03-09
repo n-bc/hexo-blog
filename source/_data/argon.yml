@@ -50,7 +50,7 @@ additional_content_after_post: '' # 文末追加信息，支持 HTML，留空则
 article_header_style: 1 # 文章内小标题样式，可选值: default, 1, 2
 
 # 背景
-page_background_url: 'https://img2.baidu.com/it/u=3259372771,2191223644&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500' # 页面背景地址，留空则不设页面背景
+page_background_url: '' # 页面背景地址，留空则不设页面背景
 page_background_dark_url: '/' # 夜间模式页面背景地址，留空则跟随日间模式
 page_background_opacity: 0.8 # 页面背景不透明度，0 ~ 1的小数
 transparent_banner: true # Banner 透明化，如果设置了背景以后推荐开启该选项
