@@ -1,7 +1,7 @@
 # 全局
 theme_color: '#1E90FF' # 主题色
 show_customize_theme_color_picker: false # 允许用户自定义主题色
-darkmode_autoswitch: true # 自动切换夜间模式，可选: false 默认使用日间, alwayson 默认使用夜间, system 跟随系统, time 随时间切换
+darkmode_autoswitch: alwayson # 自动切换夜间模式，可选: false 默认使用日间, alwayson 默认使用夜间, system 跟随系统, time 随时间切换
 enable_amoled_dark: true # 夜间模式样式，false 为灰黑，true 则为暗黑
 card_radius: 10 # 默认卡片圆角大小
 card_shadow: big # 默认卡片阴影大小，可选 small 和 big
@@ -51,7 +51,7 @@ additional_content_after_post: '' # 文末追加信息，支持 HTML，留空则
 article_header_style: 1 # 文章内小标题样式，可选值: default, 1, 2
 
 # 背景
-page_background_url: 'https://hbimg.huaban.com/dba69da25f92b76b12971ed680cfd5b7b2516d6635b3-QQpuJL_fw658' # 页面背景地址，留空则不设页面背景
+page_background_url: '' # 页面背景地址，留空则不设页面背景
 page_background_dark_url: '/' # 夜间模式页面背景地址，留空则跟随日间模式
 page_background_opacity: 0.8 # 页面背景不透明度，0 ~ 1的小数
 transparent_banner: true # Banner 透明化，如果设置了背景以后推荐开启该选项
