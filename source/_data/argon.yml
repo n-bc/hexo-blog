@@ -107,7 +107,7 @@ custom_html_foot: '' # 页尾脚本，HTML
 gitalk:
   enable: true # 是否启用 Gitalk 评论系统
   owner: 'BCTX2010'
-  repo: 'gitalk-comments'
+  repo: 'pic'
   admin: 'BCTX2010'
   clientID: '9a6223c9bcf0f25c8ac2'
   clientSecret: '74beefc44cd06d18feb558be57241a18941c683b'
