@@ -106,11 +106,11 @@ custom_html_foot: '' # 页尾脚本，HTML
 # 评论
 gitalk:
   enable: false # 是否启用 Gitalk 评论系统
-  owner: ''
-  repo: ''
-  admin: ''
-  clientID: ''
-  clientSecret: ''
+  owner: 'BCTX2010'
+  repo: 'gitalk-comments'
+  admin: 'BCTX2010'
+  clientID: '9a6223c9bcf0f25c8ac2'
+  clientSecret: '74beefc44cd06d18feb558be57241a18941c683b'
 giscus: # https://giscus.app/zh-CN
   enable: false # 是否启用 Giscus 评论系统
   repo: ''
