@@ -62,7 +62,9 @@ date: 2024-03-15 10:12:00
 
 教室内最近流通的一份奇葩考试卷——浙江省BIGNOUSESHIT生产加工销售股份有限公司基础知识考试卷，（发现错误，应该是NOSE）它竟然还有听力部分，满头问号中？？？
 
-​    
+![ima1ge](/Users/cbwt/Desktop/ima1ge.jpeg)
+
+​    ![image](/Users/cbwt/Desktop/image.jpeg)
 
 提问班主任的态度，那只能想起那句：你那里是有矿吗？一直挖的？
 
@@ -85,5 +87,9 @@ date: 2024-03-15 10:12:00
 地点：杭州中学713教室
 
 事件：今天我超厉害的！如下图：
+
+![im12age](/Users/cbwt/Desktop/im12age.jpeg)
+
+![ima21ge](/Users/cbwt/Desktop/ima21ge.jpeg)
 
 战斗值直接拉满，而且还有属性加成：暴怒时属性再+100，蛮好的！
