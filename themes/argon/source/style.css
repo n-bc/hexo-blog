@@ -4329,3 +4329,324 @@ html.using-safari #blog_setting_card_radius_to_default:before{
 	transform: translate3d(-50%, 0, 0) !important;
 	white-space: nowrap;
 }
+
+/* 核心样式 */
+.github-badge {
+display: inline-block;
+border-radius: 4px;
+text-shadow: none;
+font-size: 13.1px;
+color: #fff;
+line-height: 15px;
+margin-bottom: 5px;
+font-family: "Open Sans", sans-serif;
+}
+.github-badge .badge-subject {
+display: inline-block;
+background-color: #1E90FF;
+padding: 4px 4px 4px 6px;
+border-top-left-radius: 4px;
+border-bottom-left-radius: 4px;
+font-family: "Open Sans", sans-serif;
+}
+.github-badge .badge-value {
+display: inline-block;
+padding: 4px 6px 4px 4px;
+border-top-right-radius: 4px;
+border-bottom-right-radius: 4px;
+font-family: "Open Sans", sans-serif;
+}
+.github-badge-big {
+display: inline-block;
+border-radius: 6px;
+text-shadow: none;
+font-size: 14.1px;
+color: #fff;
+line-height: 18px;
+margin-bottom: 7px;
+}
+.github-badge-big .badge-subject {
+display: inline-block;
+background-color: #1E90FF;
+padding: 4px 4px 4px 6px;
+border-top-left-radius: 4px;
+border-bottom-left-radius: 4px;
+}
+.github-badge-big .badge-value {
+display: inline-block;
+padding: 4px 6px 4px 4px;
+border-top-right-radius: 4px;
+border-bottom-right-radius: 4px;
+}
+.bg-orange {
+background-color: #1E90FF !important;
+}
+.bg-red {
+background-color: #1E90FF !important;
+}
+.bg-apricots {
+background-color: #1E90FF !important;
+}
+.bg-casein {
+background-color: #1E90FF !important;
+}
+.bg-shallots {
+background-color: #1E90FF !important;
+}
+.bg-ogling {
+background-color: #1E90FF !important;
+}
+.bg-haze {
+background-color: #1E90FF !important;
+}
+.bg-mountain-terrier {
+background-color: #1E90FF !important;
+}
+
+
+
+
+
+
+/*网站字体*/
+/*原则上你可以设置多个字体，然后在不同的部位使用不同的字体。*/
+@font-face{
+    font-family:echo;
+src:url(https://fastly.jsdelivr.net/gh/huangwb8/bloghelper@latest/fonts/13.woff2) format('woff2')
+}
+ 
+body{
+		font-family: 'echo', Georgia, -apple-system, 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif
+}
+ 
+ 
+
+
+ 
+/*引文属性设置*/
+blockquote {
+    /*添加弱主题色为背景色*/
+    background: rgba(var(--themecolor-rgbstr), 0.1) !important;
+    width: 100%
+}
+ 
+/*引文颜色 建议用主题色*/
+:root {
+    /*也可以用类似于--color-border-on-foreground-deeper: #009688;这样的命令*/
+    --color-border-on-foreground-deeper: rgba(var(--themecolor-rgbstr));
+}
+ 
+
+ 
+/*左侧栏搜索框的颜色*/
+button#leftbar_search_container {
+    background-color: transparent;
+}
+ 
+/*========透明设置===========*/
+ 
+/*白天卡片背景透明*/
+.card{
+    background-color:rgba(255, 255, 255, 0.8) !important;
+    /*backdrop-filter:blur(6px);*//*毛玻璃效果主要属性*/
+    -webkit-backdrop-filter:blur(6px);
+}
+ 
+/*小工具栏背景完全透明*/
+/*小工具栏是card的子元素，如果用同一个透明度会叠加变色，故改为完全透明*/
+.card .widget,.darkmode .card .widget,#post_content > div > div > div.argon-timeline-card.card.bg-gradient-secondary.archive-timeline-title{
+    background-color:#ffffff00 !important;
+    backdrop-filter:none;
+    -webkit-backdrop-filter:none;
+}
+.emotion-keyboard,#fabtn_blog_settings_popup{
+    background-color:rgba(255, 255, 255, 0.95) !important;
+}
+ 
+/*分类卡片透明*/
+.bg-gradient-secondary{
+    background:rgba(255, 255, 255, 0.1) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter:blur(10px);
+}
+ 
+/*夜间透明*/
+html.darkmode.bg-white,html.darkmode .card,html.darkmode #footer{
+    background:rgba(66, 66, 66, 0.9) !important;
+}
+html.darkmode #fabtn_blog_settings_popup{
+    background:rgba(66, 66, 66, 0.95) !important;
+}
+ 
+/*标签背景
+.post-meta-detail-tag {
+    background:rgba(255, 255, 255, 0.5)!important;
+}*/
+ 
+ 
+/*========排版设置===========*/
+ 
+/*左侧栏层级置于上层*/
+#leftbar_part1 {
+    z-index: 1;
+}
+ 
+/*分类卡片文本居中*/
+#content > div.page-information-card-container > div > div{
+    text-align:center;
+}
+ 
+/*子菜单对齐及样式调整*/
+.dropdown-menu .dropdown-item>i{
+    width: 10px;
+}
+.dropdown-menu>a {
+    color:var(--themecolor);
+}
+.dropdown-menu{
+    min-width:max-content;
+}
+.dropdown-menu .dropdown-item {
+    padding: .5rem 1.5rem 0.5rem 1rem;
+}
+.leftbar-menu-subitem{
+    min-width:max-content;
+}
+.leftbar-menu-subitem .leftbar-menu-item>a{
+    padding: 0rem 1.5rem 0rem 1rem;
+}
+ 
+/*左侧栏边距修改*/
+.tab-content{
+    padding:10px 0px 0px 0px !important;
+}
+.site-author-links{
+    padding:0px 0px 0px 10px ;
+}
+/*目录位置偏移修改*/
+#leftbar_catalog{
+    margin-left: 0px;
+}
+/*目录条目边距修改*/
+#leftbar_catalog .index-link{
+    padding: 4px 4px 4px 4px;
+}
+/*左侧栏小工具栏字体缩小*/
+#leftbar_tab_tools{
+    font-size: 14px;
+}
+ 
+/*正文图片边距修改*/
+article figure {margin:0;}
+/*正文图片居中显示*/
+.fancybox-wrapper {
+    margin: auto;
+}
+/*正文表格样式修改*/
+article table > tbody > tr > td,
+article table > tbody > tr > th,
+article table > tfoot > tr > td,
+article table > tfoot > tr > th,
+article table > thead > tr > td,
+article table > thead > tr > th{
+    padding: 8px 10px;
+    border: 1px solid;
+}
+/*表格居中样式*/
+.wp-block-table.aligncenter{margin:10px auto;}
+ 
+/*回顶图标放大*/
+button#fabtn_back_to_top, button#fabtn_go_to_comment, button#fabtn_toggle_blog_settings_popup, button#fabtn_toggle_sides, button#fabtn_open_sidebar{
+    font-size: 1.2rem;
+}
+ 
+/*顶栏菜单放大*/
+/*这里也可以设置刚刚我们设置的btfFont字体。试试看！*/
+ 
+.navbar-nav .nav-link {
+    font-size: 1rem;
+    font-family: 'echo';
+			
+}
+.navbar-brand {
+	font-family: 'echo';
+    font-size: 1.2rem;
+}
+ 
+/*菜单大小*/
+.nav-link-inner--text {
+    font-size: 1.25em;
+}
+.navbar-nav .nav-item {
+    margin-right:0;
+}
+.mr-lg-5, .mx-lg-5 {
+    margin-right:1rem !important;
+}
+.navbar-toggler-icon {
+    width: 1.8rem;
+    height: 1.8rem;
+}
+/*菜单间距*/
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.4em;
+    padding-left: 1.4em;
+}
+ 
+/*隐藏wp-SEO插件带来的线条阴影（不一定要装）*/
+*[style='position: relative; z-index: 99998;'] {
+    display: none;
+}
+
+ 
+/*      左侧栏外观CSS     */
+ 
+/* 头像 */
+#leftbar_overview_author_image {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(127, 127, 127, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+ 
+/*  头像亮暗  */
+#leftbar_overview_author_image:hover {
+	transform: scale(1.23);
+	filter: brightness(150%);
+}
+ 
+/* 名称 */
+#leftbar_overview_author_name {
+  	margin-top: 15px;
+	font-size: 18px;align-content;
+	
+}
+ 
+/* 简介 */
+#leftbar_overview_author_description {
+    font-size: 14px;
+    margin-top: -4px;
+    opacity: 0.8;
+
+}
+ 
+
+ 
+/* 页脚透明 */
+#footer {
+    background: var(--themecolor-gradient);
+    color: #fff;
+    width: 100%;
+    float: right;
+    margin-bottom: 25px;
+    text-align: center;
+    padding: 25px 20px;
+    line-height: 1.8;
+    transition: none;
+    opacity: 0.6;
+}

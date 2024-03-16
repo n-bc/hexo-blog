@@ -1,15 +1,68 @@
 					<footer id="footer" class="site-footer card shadow-sm border-0">
 						<%- theme.footer_html %>
-						<div><a href="https://icp.gov.moe/?keyword=20232040">萌ICP备20232040号</a>| Powered by Hexo</div>
-						<span>博客已在战火中运行<span id="days">0</span>天</span>
-<script> 
-	var s1 = '2020-05-04';//设置为你的建站时间 
-	s1 = new Date(s1.replace(/-/g, "/")); 
-	s2 = new Date(); 
-	var days = s2.getTime() - s1.getTime(); 
-	var number_of_days = parseInt(days / (1000 * 60 * 60 * 24)); 
-	document.getElementById('days').innerHTML = number_of_days; 
+						   <div class="github-badge-big">
+        <span class="badge-subject"><i class="fa fa-id-card"></i> 备案号 </span>
+        <span class="badge-value bg-orange">
+            <!-- 备案链接 -->
+            <a href="http://icp.gov.moe/?keyword=20232040" target="_blank" one-link-mark="yes">萌ICP备20232040号</a>
+        </span>
+    </div>
+ 
+ 
+  <div class="github-badge-big">
+        <span class="badge-subject"><i class="fa fa-cloud" aria-hidden="true"></i> CDN</span>
+        <span class="badge-value bg-shallots">
+            <!-- 又拍云链接 -->
+            <a href="https://www.upyun.com/" target="_blank" one-link-mark="yes">Upyun</a>
+        </span>
+ 
+        
+    </div>
+ 
+    <div class="github-badge-big">
+        <span class="badge-subject"><i class="fa fa-copyright" aria-hidden="true"></i>Copyright </span>
+        <span class="badge-value bg-red">2020-2024</i>
+            <a href="http://n-bc.top" target="_blank" one-link-mark="yes">@ 白菜
+        </span>
+        </script>
+    </div>
+ 
+	<!-- 运行时间 -->
+    <div class="github-badge-big">
+        <span class="badge-subject"><i class="fa fa-clock-o"></i> Running Time</span><span
+            class="badge-value bg-apricots"><span id="blog_running_days" class="odometer odometer-auto-theme"></span>
+            days
+            <span id="blog_running_hours" class="odometer odometer-auto-theme"></span> H
+            <span id="blog_running_mins" class="odometer odometer-auto-theme"></span> M
+            <span id="blog_running_secs" class="odometer odometer-auto-theme"></span>S
+        </span>
+
+        <script no-pjax="">
+var blog_running_days = document.getElementById("blog_running_days");
+var blog_running_hours = document.getElementById("blog_running_hours");
+var blog_running_mins = document.getElementById("blog_running_mins");
+var blog_running_secs = document.getElementById("blog_running_secs");
+function refresh_blog_running_time() {
+var time = new Date() - new Date(2020, 4, 04, 0, 0, 0); /*此处日期的月份改为自己真正月份的前一个月*/
+var d = parseInt(time / 24 / 60 / 60 / 1000);
+var h = parseInt((time % (24 * 60 * 60 * 1000)) / 60 / 60 / 1000);
+var m = parseInt((time % (60 * 60 * 1000)) / 60 / 1000);
+var s = parseInt((time % (60 * 1000)) / 1000);
+blog_running_days.innerHTML = d;
+blog_running_hours.innerHTML = h;
+blog_running_mins.innerHTML = m;
+blog_running_secs.innerHTML = s;
+}
+refresh_blog_running_time();
+if (typeof bottomTimeIntervalHasSet == "undefined") {
+var bottomTimeIntervalHasSet = true;
+setInterval(function () {
+refresh_blog_running_time();
+}, 500);
+}
 </script>
+ 
+						
 					</footer>
 				</main>
 			</div>
