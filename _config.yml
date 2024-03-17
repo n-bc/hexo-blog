@@ -125,7 +125,7 @@ feed:
   content_limit: 140
   content_limit_delim: ' '
   order_by: -date
-  icon: icon.png
+  icon: https://q1.qlogo.cn/g?b=qq&nk=2966938704&s=640
   autodiscovery: true
   template:
 
