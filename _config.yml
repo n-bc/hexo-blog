@@ -118,7 +118,7 @@ baidusitemap:
 feed:
   enable: true
   type: atom
-  path: atom.xml
+  path: feed.xml
   limit: 20
   hub:
   content:
