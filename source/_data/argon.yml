@@ -124,10 +124,11 @@ giscus: # https://giscus.app/zh-CN
 waline: # https://waline.js.org/guide/get-started.html
   enable: false # 是否启用 Waline 评论系统
   server_url: '' 
-twikoo: # https://twikoo.js.org
-  enable: true # 是否启用 Twikoo 评论系统
-  envID: 'https://twikoo.n-bc.top'
-  lang: 'zh-CN'
+twikoo:
+  enable: true
+  visitor: true
+  envId: https://twikoo.n-bc.top # 腾讯云环境填 envId；Vercel 环境填地址（https://xxx.vercel.app）
+  # region: ap-guangzhou # 环境地域，默认为 ap-shanghai，腾讯云环境填 ap-shanghai 或 ap-guangzhou；Vercel 环境不填
 
 # 分析
 # 百度统计
