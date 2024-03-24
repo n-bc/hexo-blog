@@ -112,11 +112,11 @@ gitalk:
   clientID: '9a6223c9bcf0f25c8ac2'
   clientSecret: '74beefc44cd06d18feb558be57241a18941c683b'
 giscus: # https://giscus.app/zh-CN
-  enable: false # 是否启用 Giscus 评论系统
-  repo: ''
-  repo_id: ''
-  category: ''
-  category_id: ''
+  enable: true # 是否启用 Giscus 评论系统
+  repo: 'BCTX2010/pic'
+  repo_id: 'R_kgDOLeGIHQ'
+  category: 'Announcements'
+  category_id: 'DIC_kwDOLeGIHc4CeMAF'
   mapping: 'pathname'
   input_position: 'top'
   theme: 'light'
@@ -125,8 +125,8 @@ waline: # https://waline.js.org/guide/get-started.html
   enable: false # 是否启用 Waline 评论系统
   server_url: '' 
 twikoo:
-  enable: true
-  visitor: true
+  enable: false
+  visitor: false
   envId: https://twikoo.n-bc.top # 腾讯云环境填 envId；Vercel 环境填地址（https://xxx.vercel.app）
   # region: ap-guangzhou # 环境地域，默认为 ap-shanghai，腾讯云环境填 ap-shanghai 或 ap-guangzhou；Vercel 环境不填
 
