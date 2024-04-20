@@ -73,7 +73,7 @@ zoomify_easing: cubic-bezier(0.4,0,0,1) # 图片放大动画曲线
 zoomify_scale: 0.9 # 图片放大后最大占页面大小的百分比, 0 ~ 1 的小数
 
 # Lazyload
-enable_lazyload: true # 是否启用 Lazyload
+enable_lazyload: false # 是否启用 Lazyload
 lazyload_threshold: 800 # 图片滚动到距离页面底部多少像素开始加载
 lazyload_effect: fadeIn # 图片显示动画
 lazyload_loading_style: 1 # 图片加载的动画, 可选值 1 ~ 11, none
