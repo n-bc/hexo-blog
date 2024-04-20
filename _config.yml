@@ -117,11 +117,11 @@ baidusitemap:
 
 feed:
   enable: true
-  type: atom
-  path: feed.xml
-  limit: 20
+  type: rss2
+  path: rss2.xml
+  limit: 5
   hub:
-  content:
+  content: 'true'
   content_limit: 140
   content_limit_delim: ' '
   order_by: -date
