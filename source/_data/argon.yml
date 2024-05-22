@@ -113,7 +113,7 @@ gitalk:
   clientID: '9a6223c9bcf0f25c8ac2'
   clientSecret: '74beefc44cd06d18feb558be57241a18941c683b'
 giscus: # https://giscus.app/zh-CN
-  enable: true # 是否启用 Giscus 评论系统
+  enable: false # 是否启用 Giscus 评论系统
   repo: 'BCTX2010/pic'
   repo_id: 'R_kgDOLeGIHQ'
   category: 'Announcements'
