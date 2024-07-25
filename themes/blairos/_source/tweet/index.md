@@ -1,3 +1,0 @@
-title: "Tweet"
-layout: "tweet"
----
