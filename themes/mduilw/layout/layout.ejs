@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<%- partial('head') %>
+</head>
+<body class="mdui-theme-primary-<%= theme.color.primary%> mdui-theme-accent-<%= theme.color.accent%>" id="main-body">
+    <%- partial('_MDUI/appbar') %>
+    <%- partial('_MDUI/drawer') %>
+    <div class="mdui-container" id="pjax-main">
+        <%- body %>
+        <%- partial('footer') %>
+        <%- partial('_MDUI/fab') %>
+    </div>
+</body>
+<% if (theme.pjax_enable) {%>
+    <script>
+        $(document).pjax('a', '#pjax-main' , {fragment:'#pjax-main', timeout:8000});
+        <% if (theme.comment.enable) {%>
+            $(document).ready(function (){load_valine()});
+            $(document).on("pjax:complete", function(){load_valine();add_pic();});
+            <%}%>
+        </script>
+        <%}%>
+<script src="<%= theme.sources_cdn.main_js %>"></script>
+<script>function girlfriends() {console.log("你在想peach");document.write("<div>你在想peach</div>");return false};</script>
+</html>

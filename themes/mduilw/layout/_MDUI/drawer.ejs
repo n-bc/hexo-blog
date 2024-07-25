@@ -1,0 +1,71 @@
+<div class="mdui-drawer mdui-drawer-close"  id="main-drawer" style="padding: 20px">
+    <ul class="mdui-list" mdui-collapse="{accordion: true}">
+        <% if (theme.drawer.personal.enable) {%>
+        <li class="mdui-list-item mdui-ripple">
+            <div class="mdui-list-item-avatar"><img src="<%= theme.avatar %>"/></div>
+            <div class="mdui-list-item-content"><%= config.author %></div>
+        </li>
+        <%}%>
+        <li class="mdui-list-item mdui-ripple" href="/" >
+            <a href="/" class="mdui-list-item-icon mdui-icon material-icons">home</a>
+            <a href="/" class="mdui-list-item-content"><%- __('Menu.home') %></a>
+        </li>
+        <% if (theme.drawer.darkmode_btn) {%>
+        <li class="mdui-list-item mdui-ripple" href="javascript:void(0);" onclick="darkmod_use()">
+            <a class="mdui-list-item-icon mdui-icon material-icons">brightness_4</a>
+            <a class="mdui-list-item-content"><%- __('Menu.darkmod_btn') %></a>
+        </li>
+        <%}%>
+        <% if (theme.drawer.archives) {%>
+        <li class="mdui-list-item mdui-ripple" href="/archives/">
+            <a class="mdui-list-item-icon mdui-icon material-icons" href="/archives/">inbox</a>
+            <a class="mdui-list-item-content" href="/archives/"><%- __('Menu.archive') %></a>
+        </li>
+        <%}%>
+        <% if (theme.drawer.social.enable) {%>
+            <li class="mdui-collapse-item">
+                <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
+                    <a class="mdui-list-item-icon mdui-icon material-icons">account_circle</a>
+                    <div class="mdui-list-item-content"><%- __('Menu.others') %></div>
+                    <div class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</div>
+                </div>
+                <ul class="mdui-collapse-item-body mdui-list mdui-list-dense">
+                    <% for (var i in theme.drawer.social.links){ %>
+                        <a class="mdui-list-item mdui-ripple" href="<%= theme.drawer.social.links[i]%>"><%= i%></a>
+                    <%}%>
+                </ul>
+            </li>
+        <%}%>
+        <% if (theme.drawer.pages.enable) {%>
+            <li class="mdui-collapse-item">
+                <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
+                    <a class="mdui-list-item-icon mdui-icon material-icons">bookmark</a>
+                    <div class="mdui-list-item-content"><%- __('Menu.pages') %></div>
+                    <div class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</div>
+                </div>
+                <ul class="mdui-collapse-item-body mdui-list mdui-list-dense">
+                    <% for (var i in theme.drawer.pages.links){ %>
+                        <a class="mdui-list-item mdui-ripple" href="<%= theme.drawer.pages.links[i]%>"><%= i%></a>
+                    <%}%>
+                </ul>
+            </li>
+        <%}%>
+        <% if (theme.drawer.pages.enable) {%>
+            <li class="mdui-collapse-item">
+                <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
+                    <a class="mdui-list-item-icon mdui-icon material-icons">people</a>
+                    <div class="mdui-list-item-content"><%- __('Menu.friends') %></div>
+                    <div class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</div>
+                </div>
+                <ul class="mdui-collapse-item-body mdui-list mdui-list-dense mdui-ripple">
+                    <% for (var i in theme.drawer.friends.links){ %>
+                    <div class="mdui-list-item">
+                    <div class="mdui-list-item-avatar mdui-float-left" style=""><img src="<%= theme.drawer.friends.links[i].icon%>"/></div>
+                    <div class="mdui-list-item-content" href="<%= theme.drawer.friends.links[i].url%>"><%= i%></div>
+                    </div>
+                    <%}%>
+                </ul>
+            </li>
+        <%}%>
+    </ul>
+</div>
