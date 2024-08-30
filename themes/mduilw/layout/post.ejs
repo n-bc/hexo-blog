@@ -1,0 +1,17 @@
+<div class="mdui-grid-tile mdui-hoverable" style="margin-top: 3%;">
+    <a href="javascript:;"><img class="mdui-img-fluid mdui-img-rounded"src=<%= page.img%>/></a>
+    <div class="mdui-grid-tile-actions">
+        <div class="mdui-grid-tile-text">
+            <div class="mdui-grid-tile-title"><%= page.title%></div>
+            <div class="mdui-grid-tile-subtitle"><i class="mdui-icon material-icons">grid_on</i><%= config.author%>   <%= date(page.date, "YYYY-MM-DD") %></div>
+        </div>
+    </div> 
+</div>
+<div class="post-content mdui-typo">
+<%- page.content %>
+<% if(theme.comment.enable) {%>
+<div id="comments" style="margin-top: 20%;">
+<%- partial('_third_party/Valine') %>
+</div>
+<%}%>
+</div>

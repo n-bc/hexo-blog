@@ -1,0 +1,12 @@
+# Site
+title: Cabbage's Blog
+subtitle: Zero in your target,and go for it.
+description: Zero in your target,and go for it.
+keywords: blog,cabbage,life,tecnology
+language: en
+# URL
+url: http://n-bc.top/en
+
+# Directory
+source_dir: source-en
+public_dir: public-en
