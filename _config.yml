@@ -136,4 +136,3 @@ symbols_count_time:
  # 网页底部是否显示
   total_symbols: true
   total_time: true
-post_asset_folder: true

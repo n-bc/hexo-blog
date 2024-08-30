@@ -2,9 +2,9 @@
 theme_color: '#1E90FF' # 主题色
 show_customize_theme_color_picker: true # 允许用户自定义主题色
 darkmode_autoswitch: false # 自动切换夜间模式，可选: false 默认使用日间, alwayson 默认使用夜间, system 跟随系统, time 随时间切换
-enable_amoled_dark: true # 夜间模式样式，false 为灰黑，true 则为暗黑
-card_radius: 15 # 默认卡片圆角大小
-card_shadow: big # 默认卡片阴影大小，可选 small 和 big
+enable_amoled_dark: false # 夜间模式样式，false 为灰黑，true 则为暗黑
+card_radius: 4 # 默认卡片圆角大小
+card_shadow: # 默认卡片阴影大小，可选 small 和 big
 font: sans-serif # 默认字体，可选: sans-serif 无衬线字体, serif 衬线字体
 enable_headroom: false # 滚动时是否自动折叠顶栏
 
@@ -53,9 +53,9 @@ additional_content_after_post: '' # 文末追加信息，支持 HTML，留空则
 article_header_style: default # 文章内小标题样式，可选值: default, 1, 2
 
 # 背景
-page_background_url: 'https://i2.hdslb.com/bfs/archive/79303f514c9ea07fcd4a61d22bb8ac2cf92ba0b8.jpg' # 页面背景地址，留空则不设页面背景
+page_background_url: 'http://cdn.n-bc.top/sky.jpg' # 页面背景地址，留空则不设页面背景
 page_background_dark_url: '' # 夜间模式页面背景地址，留空则跟随日间模式
-page_background_opacity: 0 # 页面背景不透明度，0 ~ 1的小数
+page_background_opacity: 1 # 页面背景不透明度，0 ~ 1的小数
 transparent_banner: true # Banner 透明化，如果设置了背景以后推荐开启该选项
 show_toolbar_mask: false # 顶栏遮罩，如背景图片影响了顶栏文字显示对比度建议开启
 
